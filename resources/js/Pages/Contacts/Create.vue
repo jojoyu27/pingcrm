@@ -23,6 +23,7 @@
             <option :value="null" />
             <option value="CA">Canada</option>
             <option value="US">United States</option>
+            <option value="PH">Philippines</option>
           </select-input>
           <text-input v-model="form.postal_code" :error="form.errors.postal_code" class="pb-8 pr-6 w-full lg:w-1/2" label="Postal code" />
         </div>
